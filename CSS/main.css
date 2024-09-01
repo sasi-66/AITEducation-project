@@ -774,7 +774,9 @@ margin-bottom: 0px;
     }
     .course{
         text-align: center;
+        
     }
+
     .sub-course2 {
         font-size: 35px; 
         bottom: 20px; 
@@ -805,6 +807,7 @@ margin-bottom: 0px;
     .divider {
         top: 220px; 
     }
+    
 }
 
 
@@ -1148,11 +1151,11 @@ margin-bottom: 0px;
         height: 230px; 
     }
     .right-arrow {
-        left: 800px;
+        left: 900px;
         bottom: 250px;
     }
     .left-arrow {
-        left: -17px; 
+       left:-15px;
         bottom: 290px; 
     }
 }
@@ -1505,13 +1508,15 @@ margin-bottom: 0px;
         /* need help page end*/
          /* need help page media query start*/
          @media only screen and (min-width:720px) and (max-width:1000px) {
-            .gethelp{
+             .gethelp{
                 display:grid;
                 grid-template-columns: repeat(1,1fr);
-               
+               width: 100%;
             }
+            
             .need1{
                 text-align: center;
+                width: 100%;
             }
             .send{
                 position: relative;
